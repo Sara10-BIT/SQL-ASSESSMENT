@@ -1,0 +1,7 @@
+SELECT
+    USER_ID,
+    SUM(SALE_PRICE) AS TotalAmountSpent
+FROM
+    SALE_PROJECT
+GROUP BY
+    USER_ID;
